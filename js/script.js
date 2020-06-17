@@ -1,7 +1,7 @@
 
-
-
 var invia = document.getElementById("invia");
+
+// pulstante "invia"
 
 invia.addEventListener("click", function () {
 
@@ -29,6 +29,8 @@ invia.addEventListener("click", function () {
 
   var carrozza = Math.floor (Math.random() * (100000 - 90000) + 90000);
 
+  // stampa del biglietto
+
   document.getElementById("nomeBiglietto").innerHTML = nome;
   document.getElementById("kmBiglietto").innerHTML = km;
   document.getElementById("etaBiglietto").innerHTML = eta;
@@ -39,10 +41,16 @@ invia.addEventListener("click", function () {
 
 })
 
+// pulsante annulla
+
 annulla.addEventListener("click", function(){
 
+  // cancellamento biglietto
+
   document.getElementsByClassName('biglietto')[0].style.display = "none";
+
   document.getElementById("nome").value = " ";
   document.getElementById("km").value = " ";
   document.getElementById("eta").value = "Over65";
+
 })
