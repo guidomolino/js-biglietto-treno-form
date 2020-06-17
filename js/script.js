@@ -35,4 +35,14 @@ invia.addEventListener("click", function () {
   document.getElementById("prezzoBiglietto").innerHTML = prezzo + "€";
   document.getElementById("carrozza").innerHTML = carrozza;
 
+  document.getElementsByClassName('biglietto')[0].style.display = "block";
+
+})
+
+annulla.addEventListener("click", function(){
+
+  document.getElementsByClassName('biglietto')[0].style.display = "none";
+  document.getElementById("nome").value = " ";
+  document.getElementById("km").value = " ";
+  document.getElementById("eta").value = "Over65";
 })
