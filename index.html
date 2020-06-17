@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>biglietto treno form</title>
+  </head>
+  <body>
+    <div class="form">
+      <div>
+        <label for="nome">Come ti chiami?</label>
+        <input type="text" name="nome" value="">
+      </div>
+      <div>
+        <label for="km">Quanti KM vuole percorrere?</label>
+        <input type="number" name="km" value="">
+      </div>
+      <div>
+        <label for="eta">Età:</label>
+        <select id="eta" name="eta">
+          <option value="Over65">Over 65</option>
+          <option value="Maggiorenne">Maggiorenne</option>
+          <option value="Minorenne">Minorenne</option>
+        </select>
+      </div>
+      <button type="button" name="invia">Invia</button>
+      <button type="button" name="annulla">Annulla</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nome:</th>
+          <th>KM:</th>
+          <th>Fascia età:</th>
+          <th>Prezzo biglietto:</th>
+          <th>Carrozza:</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th id="nomeBiglietto"></th>
+          <th id="kmBiglietto"></th>
+          <th id="etaBiglietto"></th>
+          <th id="prezzoBiglietto"></th>
+          <th id="carrozza"></th>
+        </tr>
+      </tbody>
+    </table>
+
+
+  </body>
+</html>
