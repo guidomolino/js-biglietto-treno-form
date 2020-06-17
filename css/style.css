@@ -1,4 +1,65 @@
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../img/train.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header{
+  background-color: rgb(237, 167, 75);
+}
+
+.title{
+  width: 100%;
+  text-align: center;
+  background-color: rgb(233, 120, 56);
+  padding: 20px;
+}
+
+.title h1{
+  color: rgb(19, 41, 54);
+  font-size: 40px;
+}
+
+.title p{
+  font-size: 20px;
+}
+
+.form{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 20%;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+}
+
+.btn button{
+  margin: 0 1% 20px 0;
+}
+
 .biglietto{
   display: none;
+  background-color: red;
+  margin: 165px 25% 0 25%;
+  width: 50%;
+  height: 140px;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+}
+
+.biglietto th{
+  width: 10%;
+  height: 60px;
 }

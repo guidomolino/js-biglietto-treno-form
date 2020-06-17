@@ -51,6 +51,6 @@ annulla.addEventListener("click", function(){
 
   document.getElementById("nome").value = " ";
   document.getElementById("km").value = " ";
-  document.getElementById("eta").value = "Over65";
+  document.getElementById("eta").value = "seleziona";
 
 })

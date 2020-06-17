@@ -6,32 +6,41 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="form">
-      <div>
-        <label for="nome">Come ti chiami?</label>
-        <input id="nome" type="text" name="nome" value="">
+    <header>
+      <div class="title">
+        <h1>Freccia Boolean</h1>
+        <p>Acquista il tuo biglietto!</p>
       </div>
-      <div>
-        <label for="km">Quanti KM vuoi percorrere?</label>
-        <input id="km" type="number" name="km" value="">
+      <div class="form">
+        <div>
+          <label for="nome">Come ti chiami?</label>
+          <input id="nome" type="text" name="nome" value="">
+        </div>
+        <div>
+          <label for="km">Quanti KM vuoi percorrere?</label>
+          <input id="km" type="number" name="km" value="">
+        </div>
+        <div>
+          <label for="eta">Età:</label>
+          <select id="eta" name="eta">
+            <option value="seleziona">--seleziona--</option>
+            <option value="Over65">Over 65</option>
+            <option value="Maggiorenne">Maggiorenne</option>
+            <option value="Minorenne">Minorenne</option>
+          </select>
+        </div>
       </div>
-      <div>
-        <label for="eta">Età:</label>
-        <select id="eta" name="eta">
-          <option value="Over65">Over 65</option>
-          <option value="Maggiorenne">Maggiorenne</option>
-          <option value="Minorenne">Minorenne</option>
-        </select>
+      <div class="btn">
+        <button id="invia" type="button" name="invia">Invia</button>
+        <button id="annulla" type="button" name="annulla">Annulla</button>
       </div>
-      <button id="invia" type="button" name="invia">Invia</button>
-      <button id="annulla" type="button" name="annulla">Annulla</button>
-    </div>
+    </header>
 
     <table class="biglietto">
       <thead>
         <tr>
           <th>Nome:</th>
-          <th>KM:</th>
+          <th>Chilometri:</th>
           <th>Fascia età:</th>
           <th>Prezzo biglietto:</th>
           <th>Carrozza:</th>
