@@ -21,8 +21,8 @@ var prezzo = prezzo1.toFixed(2);
 
 var carrozza = Math.floor (Math.random() * (100000 - 90000) + 90000);
 
-document.getElementById("nomeBiglietto") = var nome;
-document.getElementById("kmBiglietto") = var km;
-document.getElementById("etaBiglietto") = var eta;
-document.getElementById("prezzoBiglietto") = var prezzo;
-document.getElementById("carrozza") = var carrozza;
+document.getElementById("nomeBiglietto").innerHTML = var nome;
+document.getElementById("kmBiglietto").innerHTML = var km;
+document.getElementById("etaBiglietto").innerHTML = var eta;
+document.getElementById("prezzoBiglietto").innerHTML = var prezzo;
+document.getElementById("carrozza").innerHTML = var carrozza;
